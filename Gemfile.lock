@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mjezzi/resque-pause-patch.git
+  remote: git://github.com/mjezzi/resque-term-as-quit-patch.git
   revision: 70cef00308ff10e3b18ce6bc5524f7e317cae96f
   specs:
     resque (1.20.0)
