@@ -8,9 +8,9 @@ end
 module Resque
   class Worker
     alias :original_reserve :reserve
-    def reserve( interval )
+    def reserve *args
       unless Resque.redis.get("resque_paused") == "true"
-        self.original_reserve interval
+        self.original_reserve *args
       end
     end
   end
