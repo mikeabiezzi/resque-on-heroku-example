@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
-gem 'resque', :git => 'git://github.com/mjezzi/resque-term-as-quit-patch.git'
+gem 'resque', :git => 'git://github.com/mjezzi/resque-cedar.git'
 gem 'resque-status'
 
 # Bundle edge Rails instead:
